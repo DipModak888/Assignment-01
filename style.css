@@ -33,7 +33,7 @@ nav {
 }
 
 .button {
-    background-color: #1D4ED8;
+    background-color: #1d4ed8;
     color: white;
     border: none;
     border-radius: 12px;
@@ -41,20 +41,56 @@ nav {
     padding: 10px 20px;
 }
 
+.button:hover {
+    background-color: #204095;
+}
+
 .button-2 {
-    background-color: #1D4ED8;
+    background-color: #1d4ed8;
     color: white;
     border: none;
     border-radius: 8px;
     cursor: pointer;
-    padding: 12px 30px
+    padding: 12px 30px;
+}
+
+.button-2:hover {
+    background-color: #204095;
+}
+
+.button-3 {
+    background-color: none;
+    color: #1d4ed8;
+    border: 1px solid #1d4ed8;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 8px 15px;
+}
+
+.button-4 {
+    background-color: #1d4ed8;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 8px 15px;
+}
+
+.button-5 {
+    background-color: none;
+    color: #000000;
+    border: 1px solid #0a0a0a;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 8px 15px;
 }
 
 /* Nav section End */
 
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url('./images/banner.jpg');
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("./images/banner.jpg");
     height: 90vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -77,11 +113,10 @@ header {
 
 .header-contant p {
     margin: 20px;
-
 }
 
 .header-contant button {
-    margin-top: 40%
+    margin-top: 40%;
 }
 
 /* Hero Section End */
@@ -92,6 +127,7 @@ header {
 
 .speaker-h1 {
     margin: 40px 0 40px;
+    font-size: 42px;
 }
 
 .speakers {
@@ -119,14 +155,69 @@ h6 {
 
 .speakers h6 {
     padding: 8px;
+    color: #64686e;
 }
 
 .speakers h4 {
-    padding: 5px;
+    padding: 0 8px;
 }
 
 .speaker-h6 {
-    color: #1D4ED8;
-    padding: 5px;
+    color: #1d4ed8 !important;
+    padding: 0 8px;
 }
+
 /* Meet section end */
+
+.card-container {
+    margin: 40px auto;
+    text-align: center;
+}
+
+.h1 {
+    font-size: 44px;
+}
+
+.cards {
+    margin-top: 50px;
+    gap: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 250px;
+    padding: 20px;
+    text-align: left;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+}
+
+.card-2 {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 250px;
+    padding: 20px;
+    text-align: left;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    background-color: #0D1B2A;
+}
+
+.text {
+    color: white;
+}
+
+.space {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding-left: 8px;
+    font-size: small;
+}
