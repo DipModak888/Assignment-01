@@ -177,6 +177,10 @@ h6 {
 .h1 {
     font-size: 44px;
 }
+.p{
+    font-size: small;
+    padding-top: 10px ;
+}
 
 .cards {
     margin-top: 50px;
@@ -186,7 +190,7 @@ h6 {
 }
 
 .card {
-    gap: 10px;
+    gap: 16px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -198,7 +202,7 @@ h6 {
 }
 
 .card-2 {
-    gap: 10px;
+    gap: 16px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
