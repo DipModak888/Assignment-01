@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between ;
+    align-items: center;
+    max-width: 1200px;
+    margin:auto;
+    padding: 15px 15px;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+}
+.list{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.list a{
+    text-decoration: none;
+    color: #575757;
+}
+.button{
+    background-color: #1D4ED8;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+/* Nav section End */
+
+header{
+    background-image: url('./images/banner.jpg');
+    height: 90vh;
+}
