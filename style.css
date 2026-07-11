@@ -220,6 +220,14 @@ h6 {
     color: white;
 }
 
+.text-p {
+    color: #93C5FD;
+}
+
+.space li::marker {
+    color: #1d4ed8;
+}
+
 .space {
     display: flex;
     flex-direction: column;
@@ -317,3 +325,42 @@ h6 {
 }
 
 /* Sponsors Section End */
+
+/* Footer Section */
+.footer {
+    max-width: 100%;
+    margin-top: 70px;
+    background-color: #0D1B2A;
+    color: white;
+    padding: 20px 9%;
+}
+
+.footer-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.right-logos {
+    display: flex;
+    gap: 12px;
+}
+
+.right-logos a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 40px;
+    height: 80px;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 15px;
+    color: #ffffff;
+}
+
+/* Footer Section End */
