@@ -178,9 +178,10 @@ h6 {
     font-size: 44px;
     margin-top: 60px;
 }
-.p{
+
+.p {
     font-size: small;
-    padding-top: 10px ;
+    padding-top: 10px;
 }
 
 .cards {
@@ -226,74 +227,146 @@ h6 {
     padding-left: 8px;
     font-size: small;
 }
+
 /* Card Section End */
 
-/* Conference Tracks Section */
-/* AI generated */
 
-.tracks{
-    padding:100px 0;
-    background:#f8fafc;
+/* Sponsors Section */
+/* AI Generated */
+
+.sponsors {
+    padding: 100px 0;
+    background: #ffffff;
 }
 
-.container{
-    width:90%;
-    max-width:1200px;
-    margin:auto;
+.container {
+    width: min(1120px, 90%);
+    margin: auto;
 }
 
-.section-title{
-    text-align:center;
-    margin-bottom:60px;
+.section-heading {
+    text-align: center;
+    margin-bottom: 60px;
 }
 
-.section-title h2{
-    font-size:42px;
-    color:#111827;
-    margin-bottom:15px;
+.section-heading h2 {
+    font-size: 48px;
+    color: #111827;
+    font-weight: 700;
+    margin-bottom: 18px;
 }
 
-.section-title p{
-    max-width:650px;
-    margin:auto;
-    color:#6b7280;
-    line-height:1.7;
-    font-size:17px;
+.section-heading p {
+    max-width: 650px;
+    margin: auto;
+    color: #6B7280;
+    line-height: 1.7;
+    font-size: 17px;
 }
 
-.track-grid{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
-    gap:30px;
+.sponsors-grid {
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+
 }
 
-.track-card{
-    background:#fff;
-    padding:35px;
-    border-radius:16px;
-    transition:.35s;
-    border:1px solid #e5e7eb;
+.sponsor-card {
+
+    height: 120px;
+    background: #fff;
+
+    border: 1px solid #E5E7EB;
+
+    border-radius: 16px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: .35s ease;
+
 }
 
-.track-card:hover{
-    transform:translateY(-8px);
-    box-shadow:0 15px 35px rgba(0,0,0,.08);
+.sponsor-card img {
+
+    width: 120px;
+    object-fit: contain;
+
+    transition: .35s;
+
 }
 
-.icon{
-    font-size:42px;
-    margin-bottom:20px;
+.sponsor-card:hover {
+
+    transform: translateY(-6px);
+
+    box-shadow:
+        0 12px 35px rgba(0, 0, 0, .08);
+
+    border-color: #2563EB;
+
 }
 
-.track-card h3{
-    font-size:24px;
-    margin-bottom:15px;
-    color:#111827;
+.sponsor-card:hover img {
+
+    filter: none;
+    opacity: 1;
+
 }
 
-.track-card p{
-    color:#6b7280;
-    line-height:1.7;
-}
-/* Conference Tracks Section End */
+/* Tablet */
 
+@media(max-width:900px) {
+
+    .sponsors-grid {
+
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .section-heading h2 {
+
+        font-size: 40px;
+
+    }
+
+}
+
+/* Mobile */
+
+@media(max-width:600px) {
+
+    .sponsors {
+
+        padding: 70px 0;
+
+    }
+
+    .sponsors-grid {
+
+        grid-template-columns: 1fr;
+
+    }
+
+    .section-heading h2 {
+
+        font-size: 34px;
+
+    }
+
+    .section-heading p {
+
+        font-size: 15px;
+
+    }
+
+    .sponsor-card {
+
+        height: 100px;
+
+    }
+
+}
+/* Sponsors Section End */
